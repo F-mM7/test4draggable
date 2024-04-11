@@ -1,21 +1,24 @@
 #box {
-  /* display: flex; */
-  /* display: inline-block; */
-  /* position: absolute; */
-  width: 600px;
-  height: 600px;
-  background-color: yellow;
-  background-size: contain;
+  background-color: silver;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin: 0;
+}
+
+#box {
+  margin: auto;
 }
 
 .piece {
-  background-color: red;
-  position: fixed;
-  width: 60px;
-  height: 60px;
+  /* position: fixed; */
+
   text-align: center;
-  font-size: 30px;
-  display: inline-block;
+  background-color: black;
+  color: white;
 }
 
 /* ==== base ==== */
