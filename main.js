@@ -18,6 +18,7 @@ function resize() {
     containment: "#box",
   });
 }
-resize();
+
+window.onload = resize;
 
 // $(window).resize(resize);
