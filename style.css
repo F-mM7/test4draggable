@@ -1,0 +1,45 @@
+#box {
+  /* display: flex; */
+  /* display: inline-block; */
+  /* position: absolute; */
+  width: 600px;
+  height: 600px;
+  background-color: yellow;
+  background-size: contain;
+}
+
+.piece {
+  background-color: red;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+}
+
+/* ==== base ==== */
+
+html {
+  touch-action: manipulation;
+}
+
+/* animation */
+.correct {
+  animation-name: correct;
+  animation-duration: 1s;
+}
+.incorrect {
+  animation-name: incorrect;
+  animation-duration: 1s;
+}
+@keyframes correct {
+  0% {
+    background-color: green;
+  }
+}
+@keyframes incorrect {
+  0% {
+    background-color: maroon;
+  }
+}
